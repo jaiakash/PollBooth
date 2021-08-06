@@ -1,3 +1,10 @@
 body{
-    background-color:aquamarine;
+    background-color:burlywood
+}
+
+.domain{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    justify-content: space-between;
 }
