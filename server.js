@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 
 // Route to Login Page
 app.get('/login', (req, res) => {
-    res.sendFile(__dirname + '/login.html');
+    res.sendFile(__dirname + '/public/login.html');
   });
 
 app.post('/login', (req, res) => {
