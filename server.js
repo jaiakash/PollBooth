@@ -18,7 +18,11 @@ app.post('/login', (req, res) => {
     // Insert Login Code Here
     let username = req.body.username;
     let password = req.body.password;
-    res.send(`Username: ${username} Password: ${password}`);
+    if(username=="akash" && password=="nitt")
+        res.send("Successful");
+        //res.send(`Username: ${username} Password: ${password}`);
+    else
+        res.send("Bad credentials");
   });
 
 const port = 3000 // Port we will listen on
