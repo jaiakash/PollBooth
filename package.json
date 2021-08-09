@@ -1,0 +1,26 @@
+{
+  "name": "pollbooth",
+  "version": "0.0.5",
+  "description": "Delta Web Dev Task 3 - By Akash Jaiswal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaiakash/PollBooth.git"
+  },
+  "author": "Akash Jaiswal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaiakash/PollBooth/issues"
+  },
+  "homepage": "https://github.com/jaiakash/PollBooth#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
