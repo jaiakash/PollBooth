@@ -18,9 +18,11 @@ app.post('/login', (req, res) => {
     // Insert Login Code Here
     let username = req.body.username;
     let password = req.body.password;
-    if(username=="akash" && password=="nitt")
-        res.send("Successful");
+    if(username=="akash" && password=="nitt"){
+        //res.send("Successful");
+        res.sendFile(__dirname + '/public/index.html');
         //res.send(`Username: ${username} Password: ${password}`);
+    }
     else
         res.send("Bad credentials");
   });
