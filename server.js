@@ -34,6 +34,7 @@ app.get('/tshirt', (req, res) => {
 app.post("/tshirt", (req, res) => {
     //var s = req.body.
    //res.send("You selected "+s+" tshirt.");
+   //res.redirect(__dirname + '/public/index.html')
    res.sendFile(__dirname + '/public/index.html');
   });
 
