@@ -14,6 +14,10 @@ app.get('/login', (req, res) => {
     res.sendFile(__dirname + '/public/login.html');
   });
 
+app.get('/tshirt', (req, res) => {
+    res.sendFile(__dirname + '/public/tshirt.html');
+  });
+
 app.post('/login', (req, res) => {
     // Insert Login Code Here
     let username = req.body.username;
@@ -27,7 +31,7 @@ app.post('/login', (req, res) => {
         res.send("Bad credentials");
   });
 
-const port = 3000 // Port we will listen on
+const port = 8080 // Port we will listen on
 
 // Function to listen on the port
 app.listen(port, () => console.log(`This app is listening on port ${port}`));

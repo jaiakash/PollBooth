@@ -1,0 +1,14 @@
+.image {
+  position:fixed;
+  top: 30%;
+  left: 30%;
+  max-width: 960px;
+}
+
+img {
+  display: inline-block;
+  max-width: 98%;
+  height: auto;
+  width: 30%;
+  margin: 1%;
+}
