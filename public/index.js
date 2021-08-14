@@ -1,5 +1,13 @@
 console.log("Akash")
 
-function domain_clicked() {
+function app_clicked() {
+    
+}
+
+function sysad_clicked() {
+    
+}
+
+function web_clicked() {
     
 }
