@@ -14,10 +14,6 @@ app.get('/login', (req, res) => {
     res.sendFile(__dirname + '/public/login.html');
   });
 
-app.get('/tshirt', (req, res) => {
-    res.sendFile(__dirname + '/public/tshirt.html');
-  });
-
 app.post('/login', (req, res) => {
     // Insert Login Code Here
     let username = req.body.username;
@@ -29,6 +25,16 @@ app.post('/login', (req, res) => {
     }
     else
         res.send("Bad credentials");
+  });
+
+app.get('/tshirt', (req, res) => {
+    res.sendFile(__dirname + '/public/tshirt.html');
+  });
+
+app.post("/tshirt", (req, res) => {
+    //var s = req.body.
+   //res.send("You selected "+s+" tshirt.");
+   res.sendFile(__dirname + '/public/index.html');
   });
 
 const port = 8080 // Port we will listen on

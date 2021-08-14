@@ -1,14 +1,55 @@
+body {
+  background-color: rgb(139, 233, 154);
+}
+.submit {
+  position:relative;
+  padding-top: 100px;
+  left: 40%;
+}
+
 .image {
-  position:fixed;
+  position:relative;
   top: 30%;
-  left: 30%;
+  left: 1%;
   max-width: 960px;
 }
 
-img {
+input {
   display: inline-block;
-  max-width: 98%;
+  color: white;
+  box-shadow : 2px 2px 4px #aa9e9e;
   height: auto;
   width: 30%;
   margin: 1%;
+}
+
+.jpg {
+  transition: 0.3s;
+}
+
+.jpg:hover {
+  transform: scale(1.4);
+}
+
+h3{
+  text-align: center;
+}
+
+h2.title {
+  position: relative;
+  text-align: center;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  font-size: 35px;
+  color: #222222;
+}
+
+h2.title::after {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 3px;
+  left: calc(50% - 25px);
+  bottom: 0;
+  background: #222222;
 }

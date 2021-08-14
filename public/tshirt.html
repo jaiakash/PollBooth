@@ -6,11 +6,16 @@
     <script src='tshirt.js'></script>
 </head>
 <body>
+
+    <h2 class="title">Choose the Tshirt</h2>
+    <h3 class="title">Click on tshirt to choose</h3>
     
     <div class="image">
-        <img src="./image/tshirt1.jpg">
-        <img src="./image/tshirt2.jpg">
-        <img src="./image/tshirt3.jpg">
+        <form class="submit" method="POST">
+            <input class="jpg" name="first" type="image" src="./image/tshirt1.jpg" onclick="alert(1)" >
+            <input class="jpg" name="second" type="image" src="./image/tshirt2.jpg" onclick="alert(1)" >
+            <input class="jpg" name="third" type="image" src="./image/tshirt3.jpg" onclick="alert(1)" >
+        </form>
     </div>
 </body>
 </html>
